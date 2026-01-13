@@ -1,4 +1,8 @@
-nav a:hover {
+* {
+    box-sizing: border-box;
+}
+
+nav {
     background-color: darkblue;
     padding: 10px;
 }
@@ -19,7 +23,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 20px gray;
-    box-sizing: border-box;
+
 }
 
 p {
