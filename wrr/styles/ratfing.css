@@ -61,6 +61,11 @@ article {
     padding: 8px;
 }
 
+header img {
+    width: 120px;
+    height: ;
+}
+
 /* Heroo section */
 .hero {
     position: relative;
