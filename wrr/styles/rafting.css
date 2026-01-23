@@ -1,10 +1,10 @@
-/* CSS Variablea */
+/* CSS Variables */
 :root {
     --primary-color: #055a05;
     --secondary-color: #f4a261;
     --accent1-color: #254653;
     --accent2-color: #e9c46a;
-    --heading-font: "Times NEw Roman", "Georrgia" x, serif;
+    --heading-font: "Times New Roman", Georgia, serif;
     --body-font: Arial, Helvetical, sans-seri;
 }
 
@@ -29,7 +29,7 @@ footer {
 header {
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
 }
 
 h1,
@@ -46,17 +46,13 @@ article {
     padding: 8px;
 }
 
-.socialmedia .a {
-    text-decoration: #254653;
-}
-
 .hero {
     position: relative;
 }
 
 .hero img {
     display: block;
-    width: 120%;
+    width: 100%;
     height: auto;
 }
 
@@ -74,6 +70,7 @@ h1 {
 .hero article img {
     float: right;
     width: 180px;
+    max-width: 40%;
     margin-left: 10px;
 
 }
@@ -81,6 +78,10 @@ h1 {
 .socialmedia {
     display: flex;
     align-items: center;
+}
+
+.socialmedia a {
+    text-emphasis: none;
 }
 
 .socialmedia img {
