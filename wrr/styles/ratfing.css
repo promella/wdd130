@@ -1,12 +1,12 @@
 /* CSS Variablea */
 :root {
-    ---primary-color: #1b4965;
-    ---secondary-color: #62b6cb;
-    ---accent1-color: #cae9ff;
-    ---accent2-color: #ffffff;
+    --primary-color: #1b4965;
+    --secondary-color: #62b6cb;
+    --accent1-color: #cae9ff;
+    --accent2-color: #ffffff;
 
-    ---heading-font: Arial, sans-serif;
-    ---body-font: Verdana, Geneva, sans-serif;
+    --heading-font: Arial, sans-serif;
+    --body-font: Verdana, Geneva, sans-serif;
 }
 
 /* Reset */
@@ -18,9 +18,9 @@
 
 /* Body */
 body {
-    font-family: var(---body-font);
-    color: var(---accent1-color);
-    background-color: var(---accent2-color);
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 
 /* Layout width */
@@ -41,14 +41,14 @@ header {
 nav a {
     margin: 16px;
     text-decoration: none;
-    color: var(---primary-color);
+    color: var(--primary-color);
     font-weight: bold;
 }
 
 /* Headings */
 h1,
 h2 {
-    font-family: var(---heading-font);
+    font-family: var(--heading-font);
     color: #1b4965;
 }
 
@@ -81,7 +81,7 @@ article {
 
 /* hero article */
 .hero article {
-    position: absolute;
+    position: relative;
     bottom: 20px;
     background-color: rgb(255, 255, 255, 0.8);
     color: #000;
@@ -103,7 +103,7 @@ footer {
 
 }
 
-.socialmeadia img {
+.socialmedia img {
     width: 24px;
     height: auto;
     margin: 6px;
