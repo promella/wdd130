@@ -5,7 +5,7 @@
     --accent1-color: #254653;
     --accent2-color: #e9c46a;
     --heading-font: "Times New Roman", Georgia, serif;
-    --body-font: Arial, Helvetica, sans-seri;
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -93,7 +93,7 @@ h1 {
 }
 
 .socialmedia a {
-    text-emphasis: none;
+    text-decoration: none;
 }
 
 .socialmedia img {
