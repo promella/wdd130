@@ -1,0 +1,90 @@
+/* CSS Variablea */
+:root {
+    --primary-color: #055a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #254653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times NEw Roman", "Georrgia" x, serif;
+    --body-font: Arial, Helvetical, sans-seri;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia .a {
+    text-decoration: #254653;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 120%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 180px;
+    margin-left: 10px;
+
+}
+
+.socialmedia {
+    display: flex;
+    align-items: center;
+}
+
+.socialmedia img {
+    width: 24px;
+    height: 24px;
+    margin: 4px;
+}
