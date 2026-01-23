@@ -72,49 +72,46 @@ header img {
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
+    display: block;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 .hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
-    padding: 16px;
     text-align: center;
-    background-color: #1b4965;
+    background-color: rgba(27, 73, 101, 0.8);
     color: #fff;
-    opacity: 0.7;
+    padding: 16px;
 }
 
-/* hero article */
 .hero article {
-    position: relative;
+    position: absolute;
     bottom: 20px;
-    background-color: rgb(255, 255, 255, 0.8);
-    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 8px;
 }
 
 .hero article img {
-    width: 125px;
+    max-width: 80px;
+    /* smaller employee image */
     height: auto;
     float: right;
     margin-left: 10px;
-    margin-bottom: 8px;
-    border-radius: 6px;
 }
 
-/* Footer */
-footer {
+.socialmedia {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
 }
 
 .socialmedia img {
-    width: 16px;
-    height: 16px;
-    margin: 6px;
+    width: 24px;
+    /* adjust smaller if needed */
+    height: 24px;
+    margin: 4px;
 }
