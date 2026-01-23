@@ -62,6 +62,10 @@ article {
 }
 
 /* Heroo section */
+.hero {
+    position: relative;
+}
+
 .hero img {
     display: block;
     width: 100%;
@@ -76,7 +80,7 @@ article {
     text-align: center;
     background-color: #1b4965;
     color: #fff;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 /* hero article */
@@ -88,8 +92,7 @@ article {
 }
 
 .hero article img {
-    max-width: 80px;
-    /* forrce smaller size */
+    width: 125px;
     height: auto;
     float: right;
     margin-left: 10px;
