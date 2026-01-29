@@ -9,9 +9,10 @@
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+
 }
 
 body {
@@ -99,7 +100,7 @@ p {
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--accent1-color);
     padding: 1rem;
     max-width: 500px;
 }
