@@ -1,20 +1,25 @@
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Layout width control */
 header,
+.grid,
 footer {
     max-width: 840px;
     margin: 0 auto;
 }
 
+/* Body */
 body {
     font-size: 16px;
     font-family: Roboto, Arial, sans-serif;
 }
 
+/* Navigation */
 nav {
     background-color: lightpink;
     padding: 1rem;
@@ -24,30 +29,32 @@ nav {
 }
 
 nav a {
-    color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
     color: #fff;
 }
 
+/* Heading */
 h1 {
     color: lightcoral;
-    padding: 5rem;
-    border-bottom: #eee;
+    padding: 2rem;
+    border-bottom: 1px solid #eee;
 }
 
+/* Grid Layout */
 .grid {
     display: grid;
-    align-items: center;
+    grid-template-columns: 1fr 3fr; /* aside | main */
+    gap: 1rem;
+    margin: 1rem auto;
 }
 
+/* Main */
 main {
-    grid-column: 2/3;
-    margin: 0 auto;
-    padding: 1em;
+    padding: 1rem;
 }
 
 main img {
@@ -60,14 +67,15 @@ main img {
     margin: 0 0 1rem 1rem;
 }
 
+/* Paragraphs */
 p {
-    padding: 0;
-    margin-top: 0m;
+    margin-top: 0;
 }
 
+/* Aside */
 aside {
+    grid-column: 1;
     width: 20em;
-    margin: 1em;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1em;
     background-color: #eee;
@@ -82,20 +90,19 @@ aside img {
 
 aside h2 {
     margin-bottom: 0.5rem;
-    text-align: center;
-    position: relative
 }
 
+/* Footer */
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
 
-/* Class Selectors */
+/* class sectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgb(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: rgb(175, 148, 175);
     color: #eee;
