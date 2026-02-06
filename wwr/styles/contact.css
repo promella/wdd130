@@ -60,54 +60,7 @@ header img {
     font-weight: 600;
 }
 
-/* /* /* Headings */
-.company-info,
-.employees,
-.contact-form {
-    max-width: 840px;
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
-.map iframe {
-    width: 100%;
-    height: 300px;
-}
-
-.employees {
-    display: flex;
-    gap: 1rem;
-    text-align: center;
-}
-
-.employees img {
-    width: 100%;
-    max-width: 200px;
-}
-
-form {
-    display: grid;
-    gap: 1rem;
-}
-
-fieldset {
-    border: 1px solid #ccc;
-    padding: 1rem;
-}
-
-button {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 0.75rem;
-    border: none;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: var(--accent1-color);
-}
-
+/* Headings */
 h1,
 h2 {
     font-family: var(--heading-font);
