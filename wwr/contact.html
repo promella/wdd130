@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us. Find details about how to contact our company| White Water Rafting</title>
+    <title>Contact Us | White Water Rafting</title>
     <meta name="description"
-      content="Learn about our white water rafting company, our history, and our passion for adventure. ">
+      content="Contact White Water Rafting for inquiries, reservations, or feedback. Find our contact details and send us a message. ">
     <meta name="author" content="Prominence Ncube">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -26,7 +26,7 @@
     </header>
     <main>
         <section>
-            <h1>Contact Us</h1>
+            <h1>Contact White Water Rafting</h1>
 
             <!-- Company Information -->
             <section class="company-info">
@@ -34,11 +34,11 @@
                 <p><strong>Address:</strong> Vaal River, Parys</p>
                 <p><strong>Phone:</strong>056 818 1860 / 1 / 2</p>
             </section>
-            <p><strong>Email:</strong> </p>res2@dimalachite.co.za</p>
+            <p><strong>Email:</strong>res2@dimalachite.co.za</p>
 
             <div class="map"><iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.006403047806!2d27.365329374525906!3d-26.903291892808475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e943d284a51633d%3A0x4301526f5d8176fa!2sDimalachite%20River%20Lodge%20-Vaal%20river%20-%20Parys!5e0!3m2!1sen!2sza!4v1770377329126!5m2!1sen!2sza"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </section>
@@ -47,16 +47,15 @@
         <section class="employees">
             <h2>Meet Our Team</h2>
             <figure>
-                <img src="images/Nick-Wright.jpg" alt="Nick Wright - Lead Rafting Guide">
-                <figcaption>Nick Wright – Lead Rafting Guide</figcaption>
+                <img src="images/nick-wright.jpg" alt="Nick Wright - Lead Rafting Guide">
+                <figcaption>nick wright – lead rafting guide</figcaption>
             </figure>
             <figure>
                 <img src="images/employee.webp" alt="Jane Smith - Reservations Manager">
                 <figcaption>Jane Smith – Reservations Manager</figcaption>
             </figure>
             <figure>
-                <img src="images/Deschutes-river-guide-rafting-terms.jpg"
-                  alt="Mike Brown - Safety Coordinator">
+                <img src="images/employee.jpg" alt="Mike Brown - Safety Coordinator">
                 <figcaption>Mike Brown – Safety Coordinator</figcaption>
             </figure>
         </section>
@@ -74,34 +73,29 @@
 
                 <fieldset>
                     <legend>Purpose of Message</legend>
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>
-                        General Inquiry
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">
-                        Reservation Question
-                    </label>
-                    <label>
-                        <input type="radio" name="purpose" value="website">
-                        Website Suggestion
-                    </label>
+                    <label for="general">General Inquiry</label>
+                    <input type="radio" name="purpose" value="general" required>
+
+
+                    <label for="reservation">Reservation Question</label>
+                    <input type="radio" name="purpose" value="reservation">
+
+
+                    <label for="website">Website Suggestion</label>
+                    <input type="radio" name="purpose" value="website">
                 </fieldset>
 
                 <label for="message">Your Message</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
 
-                <label class="checkbox">
-                    <input type="checkbox" name="subscribe">
-                    Please subscribe me to the monthly newsletter
-                </label>
+                <div class="checkbox-container">
+                    <label for="subscribe">Subscribe to Newsletter</label>
+                    <input type="checkbox" name="subscribe" id="subscribe">
+                </div>
 
-                <button type="submit">Send Message</button>
+                <button type="submit">Submit</button>
             </form>
         </section>
-    </main>
-
-
     </main>
     <footer>
         <p>© 2026 White Water Rafting | Prominence Ncube</p>
